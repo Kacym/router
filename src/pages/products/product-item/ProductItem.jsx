@@ -1,9 +1,9 @@
 import React from 'react'
 import { styled } from 'styled-components'
 
-const ProductItem = ({ product }) => {
+const ProductItem = ({ clickHandler, product }) => {
   return (
-    <StyledProductItem>
+    <StyledProductItem onClick={() => clickHandler(product.id)}>
         <ImgContainer>
             <ProductImg alt={product.title} src={product.img}/>
         </ImgContainer>

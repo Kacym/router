@@ -3,14 +3,20 @@ import { styled } from "styled-components";
 import { DUMMY_PRODUCTS } from "../../utils/constant";
 import ProductItem from "./product-item/ProductItem";
 import Button from "../../components/UI/Button";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Products = () => {
+  const navigate = useNavigate()
+
+  const clickHandler = (productId) => {
+    navigate(`products/${productId}`)
+  }
+
   return (
     <StyledProducts>
       <ProductsList>
         {DUMMY_PRODUCTS.map((item) => {
-          return <ProductItem key={item.id} product={item}/>;
+          return <ProductItem clickHandler={clickHandler} key={item.id} product={item}/>;
         })}
       </ProductsList>
       <Link to="/"><Button title="Go Back"/></Link>

@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <StyledHeader>
       <>
-        <h2>iStore</h2>
+        <h2><Link style={{textDecoration: "none", color: "white"}} to="/">iStore</Link></h2>
       </>
       <NavBar>
         <h2>
@@ -46,7 +46,7 @@ const Header = () => {
                 }
               }
             }}
-            to="/my-card"
+            to="/myCart"
           >
             My Cart
           </NavLink>
@@ -67,7 +67,7 @@ const Header = () => {
                 }
               }
             }}
-            to="my-orders"
+            to="myOrders"
           >
             {" "}
             My Orders
