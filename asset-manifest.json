@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/router/static/css/main.6bf553cc.css",
+    "main.js": "/router/static/js/main.89f366f4.js",
+    "static/media/iphone-12-pro.png": "/router/static/media/iphone-12-pro.9a76b12d1facbc51bd79.png",
+    "static/media/iphone-14-pro.png": "/router/static/media/iphone-14-pro.8be50206bc499f4b7fc3.png",
+    "static/media/iphone-13-pro.png": "/router/static/media/iphone-13-pro.3c3d7fdcda2536f2cee1.png",
+    "index.html": "/router/index.html",
+    "main.6bf553cc.css.map": "/router/static/css/main.6bf553cc.css.map",
+    "main.89f366f4.js.map": "/router/static/js/main.89f366f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bf553cc.css",
+    "static/js/main.89f366f4.js"
+  ]
+}
